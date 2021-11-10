@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical"
+    android:background="#FFC107">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="123dp"
+        android:layout_height="117dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/bag" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20sp"
+        android:text="CHRISTMAS"
+        android:textColor="#009688"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="2021"
+        android:textColor="#009688"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#F44336"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Aplicación desarrollada por:"
+        android:textStyle="bold"
+        android:textColor="#454242"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Paul Neftaly Campos Contreras"
+        android:textColor="#454242"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Salinas Tirado Manuela Michelle"
+        android:textColor="#454242"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+
+</LinearLayout>

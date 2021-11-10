@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/christmasball"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/christmasball"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/christmasball"
+            android:title="@string/menu_slideshow" />
+    </group>
+</menu>
+
+    <!-- FUNCIONAMIENTO: Dentro de este layout "activity_main_drawer, se definen algunos aspectos de diseño sobre
+        nuestro menú estos aspectos serán como:
+        ** Cantidad de opciones que tendrá nuestro menú desplegable, así como el
+        ** nombre de opción
+        ** y su respectivo icono
+    -->
